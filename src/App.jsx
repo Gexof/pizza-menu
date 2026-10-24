@@ -4,9 +4,13 @@ import Menu from "./components/Menu";
 
 function App() {
   return (
-    <div>
+    <div className="flex min-h-screen flex-col">
       <Header />
-      <Menu />
+
+      <div className="flex-1">
+        <Menu />
+      </div>
+
       <Footer />
     </div>
   );
